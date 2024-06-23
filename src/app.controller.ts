@@ -9,7 +9,7 @@ export class AppController {
   @Get('*')
   forAll(req: any, res:any): void {
     console.log(req);
-    console.log("Fucking all at once");
+    console.log("for once and all!!!");
   }
   
   @Get('/ping')
