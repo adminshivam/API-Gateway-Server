@@ -7,7 +7,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('*')
-  fuckAll(req: any, res:any): void {
+  forAll(req: any, res:any): void {
     console.log(req);
     console.log("Fucking all at once");
   }
