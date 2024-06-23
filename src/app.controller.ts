@@ -14,7 +14,6 @@ export class AppController {
   
   @Get('/ping')
   ping(): string {
-    // console.log("Fucking all at once");
     return this.appService.ping();
   }
 }
